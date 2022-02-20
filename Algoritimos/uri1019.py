@@ -1,0 +1,5 @@
+s = input("digite um valor em segundos: ")
+h = int(int(s)/3600)
+m = int((int(s)%3600)/60)
+s = int((int(s)%3600)%60)
+print (str(h)+":"+str(m)+":"+str(s))

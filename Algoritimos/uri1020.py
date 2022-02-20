@@ -1,0 +1,7 @@
+v = input("digite um valor em dias: ")
+a = int(int(v)/365)
+m = int((int(v)%365)/30)
+d = int((int(v)%365)%30)
+print(str(a)+" ano(s)")
+print(str(m)+" mes(es)")
+print(str(d)+" dias(s)")
